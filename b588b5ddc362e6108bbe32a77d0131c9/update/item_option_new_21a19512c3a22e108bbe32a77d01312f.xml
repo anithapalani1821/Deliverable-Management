@@ -44,7 +44,7 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>due_date</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>400</order>
+        <order>700</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-07 09:10:35</sys_created_on>
         <sys_id>21a19512c3a22e108bbe32a77d01312f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Due Date</sys_name>
         <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
         <sys_update_name>item_option_new_21a19512c3a22e108bbe32a77d01312f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-07 09:38:28</sys_updated_on>
+        <sys_updated_on>2025-07-08 07:21:45</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

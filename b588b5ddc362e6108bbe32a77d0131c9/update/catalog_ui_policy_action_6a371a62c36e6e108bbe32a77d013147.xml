@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Deliverable Request">174d8996c3622e108bbe32a77d013189</catalog_item>
+        <catalog_variable>IO:d0939552c3a22e108bbe32a77d01314a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 08:52:53</sys_created_on>
+        <sys_id>6a371a62c36e6e108bbe32a77d013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tune_in_language</sys_name>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6a371a62c36e6e108bbe32a77d013147</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 08:52:53</sys_updated_on>
+        <table/>
+        <ui_policy display_value="end tag details  section needs to be shown only if the Deliverable Type is Promo and  Secondary Event">b39ac222c32e6e108bbe32a77d0131d2</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>tune_in_language</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a371a62c36e6e108bbe32a77d013147"/>
+</record_update>

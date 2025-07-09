@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="network" table="x_1777184_delive_0_deliverable_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>network</element>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>network</sys_name>
+            <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+            <sys_update_name>sys_choice_x_1777184_delive_0_deliverable_request_network</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HGTV</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:35</sys_updated_on>
+            <value>hgtv</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DIY Network</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:35</sys_updated_on>
+            <value>diy_network</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>The Food Network</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:35</sys_updated_on>
+            <value>the_food_network</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cooking Channel</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:35</sys_updated_on>
+            <value>cooking_channel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MotorTrend</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:35</sys_updated_on>
+            <value>motortrend</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Animal  Planet</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:35</sys_updated_on>
+            <value>animal_planet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Discovery Channel</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:35</sys_updated_on>
+            <value>discovery_channel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Science</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:35</sys_updated_on>
+            <value>science</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Magnolia</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:35</sys_updated_on>
+            <value>magnolia</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

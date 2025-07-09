@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>deliverable_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>End Tag Details Section Hide/Show</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    if (newValue == 'promo' || newValue == 'secondary_event') {
+		// alert(newValue);
+        // alert(g_form.getSectionNames());
+        g_form.setSectionDisplay('end_tagdetails', true);
+		g_form.setMandatory('objective',true);
+		g_form.setMandatory('tune_in_language',true);
+    } else {
+        g_form.setSectionDisplay('end_tagdetails', false);
+		g_form.setMandatory('objective',false);
+		g_form.setMandatory('tune_in_language',false);
+    }
+
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 09:14:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>973ad2a6c36e6e108bbe32a77d013121</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>End Tag Details Section Hide/Show</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>sys_script_client_973ad2a6c36e6e108bbe32a77d013121</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 09:43:33</sys_updated_on>
+        <table>x_1777184_delive_0_deliverable_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

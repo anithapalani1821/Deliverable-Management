@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This shouldn’t ve a past date</description>
+        <field>flight_start_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Flight Start Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    var startDate = new Date(newValue);
+    startDate.setHours(0, 0, 0, 0);
+
+    if (startDate < today) {
+        //   alert("inside past date check");
+
+        g_form.showFieldMsg('flight_start_date', 'Flight Start Date must be today or a future date.', 'error');
+        //   alert("below");
+        //   g_form.setValue('flight_start_date', '');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 06:08:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>99b031eac36a6e108bbe32a77d013176</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Flight Start Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>sys_script_client_99b031eac36a6e108bbe32a77d013176</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 06:51:49</sys_updated_on>
+        <table>x_1777184_delive_0_deliverable_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

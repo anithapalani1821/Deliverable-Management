@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ee904a99c3a2e6108bbe32a77d013142" label="Season Details" max_length="40" name="x_1777184_delive_0_season_details" type="collection">
+        <element display="true" label="Season Number" max_length="40" name="season_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Show" max_length="32" name="show" reference="x_1777184_delive_0_show_detail" type="reference"/>
+        <element label="Season ID" max_length="255" name="season_id" type="string"/>
+        <index name="index">
+            <element name="show"/>
+        </index>
+    </element>
+</database>

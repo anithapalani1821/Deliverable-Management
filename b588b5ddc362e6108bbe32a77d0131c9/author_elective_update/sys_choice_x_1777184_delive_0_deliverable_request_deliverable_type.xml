@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="deliverable_type" table="x_1777184_delive_0_deliverable_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>deliverable_type</element>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:36</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>deliverable_type</sys_name>
+            <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+            <sys_update_name>sys_choice_x_1777184_delive_0_deliverable_request_deliverable_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:36</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Promo</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:36</sys_updated_on>
+            <value>promo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Secondary Event</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:36</sys_updated_on>
+            <value>secondary_event</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Print</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:36</sys_updated_on>
+            <value>print</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Digital</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:36</sys_updated_on>
+            <value>digital</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ancillary</label>
+            <language>en</language>
+            <name>x_1777184_delive_0_deliverable_request</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:49:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:49:36</sys_updated_on>
+            <value>ancillary</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

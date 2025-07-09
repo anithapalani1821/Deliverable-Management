@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">55d3e56ac32a6e108bbe32a77d01317d</sp_column>
+        <sp_widget display_value="Record Producer Button">49076d6ec32a6e108bbe32a77d01313b</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 05:48:27</sys_created_on>
+        <sys_id>761d2d62c36a6e108bbe32a77d0131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>sp_instance_761d2d62c36a6e108bbe32a77d0131e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 05:48:27</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=761d2d62c36a6e108bbe32a77d0131e7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</application>
+        <file_path/>
+        <instance_id>7eb2fe4a1bf5f11c699443f4bd4bcb97</instance_id>
+        <instance_name>dev183603</instance_name>
+        <name>sp_instance_761d2d62c36a6e108bbe32a77d0131e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="2">55d3e56ac32a6e108bbe32a77d01317d</sp_column><sp_widget display_value="Record Producer Button">49076d6ec32a6e108bbe32a77d01313b</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-08 05:48:27</sys_created_on><sys_id>761d2d62c36a6e108bbe32a77d0131e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package><sys_policy/><sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope><sys_update_name>sp_instance_761d2d62c36a6e108bbe32a77d0131e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-08 05:48:27</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=761d2d62c36a6e108bbe32a77d0131e7"/></record_update>]]></payload>
+        <payload_hash>8513281</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0288b5ddc362e6108bbe32a77d0131ce</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 05:48:27</sys_created_on>
+        <sys_id>fa1d21a6c36a6e108bbe32a77d013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e89413580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 05:48:27</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>fe1d21a66d6a6e10db9c8caa5982d970</update_guid>
+        <update_guid_history>fe1d21a66d6a6e10db9c8caa5982d970:8513281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">883d61a6c36a6e108bbe32a77d013195</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 05:48:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>045151c007ca4e02803f76266af79904</sys_id>
+        <sys_metadata>761d2d62c36a6e108bbe32a77d0131e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_scope_delete display_value="">5a93fe10d0964c9099aa6348122240c1</sys_scope_delete>
+        <sys_update_name>sp_instance_761d2d62c36a6e108bbe32a77d0131e7</sys_update_name>
+        <sys_update_version display_value="sp_instance_761d2d62c36a6e108bbe32a77d0131e7">fa1d21a6c36a6e108bbe32a77d013171</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 05:48:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

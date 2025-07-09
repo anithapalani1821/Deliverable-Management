@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7a893d11c3a2e6108bbe32a77d01317a" label="Deliverable Request" max_length="40" name="x_1777184_delive_0_deliverable_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Approver Notes" max_length="255" name="approver_notes" type="string"/>
+        <element label="Flight End Date" max_length="40" name="flight_end_date" type="glide_date"/>
+        <element label="Supporting Document" max_length="255" name="supporting_document" type="file_attachment"/>
+        <element label="End Tag" max_length="255" name="end_tag" type="string"/>
+        <element label="Additional Notes" max_length="255" name="additional_notes" type="string"/>
+        <element label="Flight Start Date" max_length="40" name="flight_start_date" type="glide_date"/>
+        <element choice="1" label="Network" mandatory="true" max_length="40" name="network" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Discovery Channel" sequence="6" value="discovery_channel"/>
+                <element inactive_on_update="false" label="The Food Network" sequence="2" value="the_food_network"/>
+                <element inactive_on_update="false" label="Cooking Channel" sequence="3" value="cooking_channel"/>
+                <element inactive_on_update="false" label="Science" sequence="7" value="science"/>
+                <element inactive_on_update="false" label="HGTV" sequence="0" value="hgtv"/>
+                <element inactive_on_update="false" label="MotorTrend" sequence="4" value="motortrend"/>
+                <element inactive_on_update="false" label="Magnolia" sequence="8" value="magnolia"/>
+                <element inactive_on_update="false" label="Animal  Planet" sequence="5" value="animal_planet"/>
+                <element inactive_on_update="false" label="DIY Network" sequence="1" value="diy_network"/>
+            </choice>
+        </element>
+        <element label="Due Date" mandatory="true" max_length="40" name="due_date" type="glide_date"/>
+        <element label="Deliverable Title" mandatory="true" max_length="50" name="deliverable_title" type="string"/>
+        <element dependent="show" dependent_on_field="show" label="Season" mandatory="true" max_length="32" name="season" reference="x_1777184_delive_0_season_details" type="reference" use_dependent_field="true"/>
+        <element choice="1" label="Tune In Language" max_length="255" name="tune_in_language" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Next Day" sequence="2" value="next_day"/>
+                <element inactive_on_update="false" label="Activate Now" sequence="6" value="activate_now"/>
+                <element inactive_on_update="false" label="Download Now" sequence="7" value="download_now"/>
+                <element inactive_on_update="false" label="Tonight" sequence="3" value="tonight"/>
+                <element inactive_on_update="false" label="Today" sequence="4" value="today"/>
+                <element inactive_on_update="false" label="Day" sequence="0" value="day"/>
+                <element inactive_on_update="false" label="Dated" sequence="1" value="dated"/>
+                <element inactive_on_update="false" label="Next" sequence="5" value="next"/>
+            </choice>
+        </element>
+        <element choice="1" label="Deliverable  Type" mandatory="true" max_length="40" name="deliverable_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Secondary Event" sequence="1" value="secondary_event"/>
+                <element inactive_on_update="false" label="Print" sequence="2" value="print"/>
+                <element inactive_on_update="false" label="Digital" sequence="3" value="digital"/>
+                <element inactive_on_update="false" label="Promo" sequence="0" value="promo"/>
+                <element inactive_on_update="false" label="Ancillary" sequence="4" value="ancillary"/>
+            </choice>
+        </element>
+        <element dependent="season" dependent_on_field="season" label="Episode" max_length="32" name="episode" reference="x_1777184_delive_0_episode_detail" type="reference" use_dependent_field="true"/>
+        <element label="Show" mandatory="true" max_length="32" name="show" reference="x_1777184_delive_0_show_detail" type="reference"/>
+        <element choice="1" label="Objective" max_length="40" name="objective" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New Season" sequence="1" value="new_season"/>
+                <element inactive_on_update="false" label="Special" sequence="0" value="special"/>
+                <element inactive_on_update="false" label="New Series" sequence="2" value="new_series"/>
+                <element inactive_on_update="false" label="Season Finale" sequence="3" value="season_finale"/>
+            </choice>
+        </element>
+        <element choice="3" default="in_draft" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending  Media Science Approval" sequence="2" value="pending_media_science_approval"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="In Draft" sequence="0" value="in_draft"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="Send Back" sequence="5" value="send_back"/>
+                <element inactive_on_update="false" label="Resubmitted" sequence="6" value="resubmitted"/>
+                <element inactive_on_update="false" label="Pending Creative Approval" sequence="1" value="pending_creative_approval"/>
+            </choice>
+        </element>
+    </element>
+</database>

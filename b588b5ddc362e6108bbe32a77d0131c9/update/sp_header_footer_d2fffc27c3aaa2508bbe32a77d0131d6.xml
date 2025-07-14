@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.custom-header {&#13;
+  display: flex;&#13;
+  justify-content: space-between;&#13;
+  align-items: center;&#13;
+  background-color: #fffEFA; /* White background */&#13;
+  color: #000000; /* Black text */&#13;
+  padding: 10px 20px;&#13;
+  font-family: 'Segoe UI', sans-serif;&#13;
+  border-bottom: 1px solid #ccc; /* Optional: subtle bottom border */&#13;
+}&#13;
+&#13;
+.header-left h2 {&#13;
+  margin: 0;&#13;
+  font-size: 20px;&#13;
+  color: #000000; /* Ensure heading is black */&#13;
+}&#13;
+&#13;
+.header-right {&#13;
+  display: flex;&#13;
+  align-items: center;&#13;
+  gap: 20px;&#13;
+}&#13;
+&#13;
+.header-right a {&#13;
+  color: #000000; /* Black links */&#13;
+  text-decoration: none;&#13;
+  font-weight: 500;&#13;
+}&#13;
+&#13;
+.header-right a:hover {&#13;
+  text-decoration: underline;&#13;
+  color: #333333; /* Slightly darker on hover */&#13;
+}&#13;
+&#13;
+.profile {&#13;
+  display: flex;&#13;
+  align-items: center;&#13;
+  gap: 10px;&#13;
+}&#13;
+&#13;
+.profile img {&#13;
+  width: 30px;&#13;
+  height: 30px;&#13;
+  border-radius: 50%;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>header_dm</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>DM Header</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 05:06:35</sys_created_on>
+        <sys_id>d2fffc27c3aaa2508bbe32a77d0131d6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>DM Header</sys_name>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>sp_header_footer_d2fffc27c3aaa2508bbe32a77d0131d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 05:21:59</sys_updated_on>
+        <template><![CDATA[<div class="custom-header">
+  <div class="header-left">
+    <h2>Deliverable Management</h2>
+  </div>
+  <div class="header-right">
+    <a href="#send-back">Send Back</a>
+    <a href="#my-request">My Request</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#tours">Tours</a>
+    <div class="profile">
+      <img src="profile.jpg" alt="Profile" />
+      <span>System Administrator</span>
+    </div>
+  </div>
+</div>
+]]></template>
+    </sp_header_footer>
+</record_update>

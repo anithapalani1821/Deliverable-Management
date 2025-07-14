@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>routeConfigId</name>
+        <page display_value="Deliverable Management">b20299dbc3a66250929071c40cebb270</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:45:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>be0299db3ea66250d14142f5d1411760</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>routeConfigId</sys_name>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>sys_ux_page_property_be0299db3ea66250d14142f5d1411760</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:45:40</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1777184_delive_0.b20299dbc3a66250929071c40cebb270.root.routeConfigId</unique_name>
+        <value>76a302f10b131010a8b1c96237673a61</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=be0299db3ea66250d14142f5d1411760"/>
+</record_update>

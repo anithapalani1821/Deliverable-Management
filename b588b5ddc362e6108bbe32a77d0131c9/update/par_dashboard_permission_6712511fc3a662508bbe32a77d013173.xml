@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Deliverable Management">d712111fc3a662508bbe32a77d01317c</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_1777184_delive_0.media science team" name="x_1777184_delive_0.media science team">4a88b5ddc362e6108bbe32a77d0131d2</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:45:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6712511fc3a662508bbe32a77d013173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d712111fc3a662508bbe32a77d01317c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>par_dashboard_permission_6712511fc3a662508bbe32a77d013173</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:45:59</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

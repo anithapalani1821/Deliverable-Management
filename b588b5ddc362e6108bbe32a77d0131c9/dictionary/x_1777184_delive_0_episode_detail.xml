@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="8e818ed9c3a2e6108bbe32a77d0131fb" label="Episode Detail" max_length="40" name="x_1777184_delive_0_episode_detail" type="collection">
+    <element db_object_id="8e818ed9c3a2e6108bbe32a77d0131fb" label="Episode Detail" max_length="40" name="x_1777184_delive_0_episode_detail" text_index="true" type="collection">
         <element label="Season" max_length="32" name="season" reference="x_1777184_delive_0_season_details" type="reference"/>
         <element display="true" label="Episode Number" max_length="40" name="episode_number" type="string"/>
         <element label="Episode ID" max_length="40" name="episode_id" type="string"/>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>.btn{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}</css>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">d0bb1c27c3e6a2508bbe32a77d013163</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 16:56:45</sys_created_on>
+        <sys_id>b339569bc32e62508bbe32a77d01312d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>sp_instance_b339569bc32e62508bbe32a77d01312d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 06:24:04</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://dev183603.service-now.com/dm?id=sc_cat_item&sys_id=174d8996c3622e108bbe32a77d013189&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f",
+		"displayValue": "https://dev183603.service-now.com/dm?id=sc_cat_item&sys_id=174d8996c3622e108bbe32a77d013189&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f"
+	},
+	"button_text": {
+		"value": "Fill the form",
+		"displayValue": "Fill the form"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b339569bc32e62508bbe32a77d01312d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</application>
+        <file_path/>
+        <instance_id>7eb2fe4a1bf5f11c699443f4bd4bcb97</instance_id>
+        <instance_name>dev183603</instance_name>
+        <name>sp_instance_b339569bc32e62508bbe32a77d01312d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt;.btn{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}&lt;/css&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;d0bb1c27c3e6a2508bbe32a77d013163&lt;/sp_column&gt;&lt;sp_widget display_value="link-button"&gt;abc50de6d702120023c84f80de61036a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-10 16:56:45&lt;/sys_created_on&gt;&lt;sys_id&gt;b339569bc32e62508bbe32a77d01312d&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Deliverable Management" source="x_1777184_delive_0"&gt;b588b5ddc362e6108bbe32a77d0131c9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Deliverable Management"&gt;b588b5ddc362e6108bbe32a77d0131c9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_b339569bc32e62508bbe32a77d01312d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-11 06:24:04&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"href": {
+		"value": "https://dev183603.service-now.com/dm?id=sc_cat_item&amp;sys_id=174d8996c3622e108bbe32a77d013189&amp;sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f",
+		"displayValue": "https://dev183603.service-now.com/dm?id=sc_cat_item&amp;sys_id=174d8996c3622e108bbe32a77d013189&amp;sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f"
+	},
+	"button_text": {
+		"value": "Fill the form",
+		"displayValue": "Fill the form"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b339569bc32e62508bbe32a77d01312d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>671200142</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1529d44bc32eee108bbe32a77d0131f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 06:24:04</sys_created_on>
+        <sys_id>b50251afc3eaa2508bbe32a77d013156</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f827c2870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 06:24:04</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>3d0251af2ceaa2509d3d390bd6657555</update_guid>
+        <update_guid_history>3d0251af2ceaa2509d3d390bd6657555:671200142,ae71956f56eaa250545e12f100f90bf2:-257646317,f641592fdeeaa25015714baed6facc40:2094167852,c531956f2eeaa250784d023e67fec73d:-1599721252,be11592f27eaa250c44641ab613d823b:-1804444186,8ebb906783e6a25059f07b9cd42730a4:2094167852,a50e482b4f66a250651ae6ef15abcd54:-2014193111,32e9da9b172e6250de3131dabddd83d9:-1447021394,f739569bc22e6250bdcf5e0b01087d2e:-1425343412</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2cbccaefc322e2508bbe32a77d013125</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 10:40:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>34df1c5b86d441289b02b87bad908a40</sys_id>
+        <sys_metadata>b339569bc32e62508bbe32a77d01312d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_scope_delete display_value="">5a93fe10d0964c9099aa6348122240c1</sys_scope_delete>
+        <sys_update_name>sp_instance_b339569bc32e62508bbe32a77d01312d</sys_update_name>
+        <sys_update_version display_value="sp_instance_b339569bc32e62508bbe32a77d01312d">b50251afc3eaa2508bbe32a77d013156</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 10:40:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>do you want to end the conversation?</key>
+        <language>en</language>
+        <message>Do you want to end the conversation?</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 16:02:15</sys_created_on>
+        <sys_id>3689a9d4c33ea6508bbe32a77d013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>do you want to end the conversation?</sys_name>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>sys_ui_message_3689a9d4c33ea6508bbe32a77d013182</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 16:02:15</sys_updated_on>
+    </sys_ui_message>
+</record_update>

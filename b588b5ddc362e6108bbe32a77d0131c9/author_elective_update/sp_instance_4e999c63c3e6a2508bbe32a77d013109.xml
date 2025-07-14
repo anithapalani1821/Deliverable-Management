@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f80e8463c3a6a2508bbe32a77d013176</sp_column>
+        <sp_widget display_value="Your Favorites">b43545e2436fe1108c5d43d488b8f2a5</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 02:17:31</sys_created_on>
+        <sys_id>4e999c63c3e6a2508bbe32a77d013109</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>sp_instance_4e999c63c3e6a2508bbe32a77d013109</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 10:40:52</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"visible_favorites": {
+		"value": "4",
+		"displayValue": "4"
+	},
+	"show_empty_state": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"sort_order": {
+		"value": "recVisited",
+		"displayValue": "Recently Accessed"
+	},
+	"list_type": {
+		"value": "simple_list",
+		"displayValue": "Simple List"
+	},
+	"card_behaviour": {
+		"value": "single",
+		"displayValue": "Single"
+	},
+	"load_config": {
+		"value": "Async",
+		"displayValue": "Async"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=4e999c63c3e6a2508bbe32a77d013109"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</application>
+        <file_path/>
+        <instance_id>7eb2fe4a1bf5f11c699443f4bd4bcb97</instance_id>
+        <instance_name>dev183603</instance_name>
+        <name>sp_instance_4e999c63c3e6a2508bbe32a77d013109</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;f80e8463c3a6a2508bbe32a77d013176&lt;/sp_column&gt;&lt;sp_widget display_value="Your Favorites"&gt;b43545e2436fe1108c5d43d488b8f2a5&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-11 02:17:31&lt;/sys_created_on&gt;&lt;sys_id&gt;4e999c63c3e6a2508bbe32a77d013109&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Deliverable Management" source="x_1777184_delive_0"&gt;b588b5ddc362e6108bbe32a77d0131c9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Deliverable Management"&gt;b588b5ddc362e6108bbe32a77d0131c9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_4e999c63c3e6a2508bbe32a77d013109&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-11 10:40:52&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"visible_favorites": {
+		"value": "4",
+		"displayValue": "4"
+	},
+	"show_empty_state": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"sort_order": {
+		"value": "recVisited",
+		"displayValue": "Recently Accessed"
+	},
+	"list_type": {
+		"value": "simple_list",
+		"displayValue": "Simple List"
+	},
+	"card_behaviour": {
+		"value": "single",
+		"displayValue": "Single"
+	},
+	"load_config": {
+		"value": "Async",
+		"displayValue": "Async"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4e999c63c3e6a2508bbe32a77d013109"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>911971200</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1529d44bc32eee108bbe32a77d0131f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 10:40:52</sys_created_on>
+        <sys_id>67cc8eefc322e2508bbe32a77d01312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f912dde60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 10:40:52</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ebcc8eef5b22e2504003038d7f6aa52a</update_guid>
+        <update_guid_history>ebcc8eef5b22e2504003038d7f6aa52a:911971200,8e69992b2b2ea2505ea738b51452a830:1701498143,2b1c1c670fe6a250994df9588ac2baf3:911971200,efbb946768e6a25015d9698167a3c203:-708108140,20a99c6325e6a2501118e701a883c77f:122444257,429994a364e6a25031550898ddbde535:1519852300</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f0ec0223c362e2508bbe32a77d013173</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 10:41:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>00398a082f01434080041090e3be0040</sys_id>
+        <sys_metadata>4e999c63c3e6a2508bbe32a77d013109</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_scope_delete display_value="">5a93fe10d0964c9099aa6348122240c1</sys_scope_delete>
+        <sys_update_name>sp_instance_4e999c63c3e6a2508bbe32a77d013109</sys_update_name>
+        <sys_update_version display_value="sp_instance_4e999c63c3e6a2508bbe32a77d013109">67cc8eefc322e2508bbe32a77d01312b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 10:41:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

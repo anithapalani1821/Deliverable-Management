@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="7a893d11c3a2e6108bbe32a77d01317a" label="Deliverable Request" max_length="40" name="x_1777184_delive_0_deliverable_request" type="collection">
+    <element db_object_id="7a893d11c3a2e6108bbe32a77d01317a" label="Deliverable Request" max_length="40" name="x_1777184_delive_0_deliverable_request" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Approver Notes" max_length="255" name="approver_notes" type="string"/>
         <element label="Flight End Date" max_length="40" name="flight_end_date" type="glide_date"/>
@@ -57,6 +57,7 @@
         <element choice="3" default="in_draft" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Pending  Media Science Approval" sequence="2" value="pending_media_science_approval"/>
+                <element inactive_on_update="false" label="cancelled" sequence="7" value="cancelled"/>
                 <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
                 <element inactive_on_update="false" label="In Draft" sequence="0" value="in_draft"/>
                 <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>

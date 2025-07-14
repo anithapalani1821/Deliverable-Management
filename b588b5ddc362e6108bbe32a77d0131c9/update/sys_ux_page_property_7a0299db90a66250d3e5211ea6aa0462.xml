@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Deliverable Management">b20299dbc3a66250929071c40cebb270</page>
+        <required_translations>[ {
+  "message" : "New Approval Detail",
+  "comment" : ""
+}, {
+  "message" : "New Deliverable Request",
+  "comment" : ""
+}, {
+  "message" : "New Episode Detail",
+  "comment" : ""
+}, {
+  "message" : "New Season Details",
+  "comment" : ""
+}, {
+  "message" : "New Show Detail",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:45:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>7a0299db90a66250d3e5211ea6aa0462</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>sys_ux_page_property_7a0299db90a66250d3e5211ea6aa0462</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 07:22:03</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1777184_delive_0.b20299dbc3a66250929071c40cebb270.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Deliverable Request"},"routeInfo":{"route":"record","fields":{"table":"x_1777184_delive_0_deliverable_request","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1777184_delive_0_deliverable_request","canCreate":true}}},{"label":{"translatable":true,"message":"New Episode Detail"},"routeInfo":{"route":"record","fields":{"table":"x_1777184_delive_0_episode_detail","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1777184_delive_0_episode_detail","canCreate":true}}},{"label":{"translatable":true,"message":"New Season Details"},"routeInfo":{"route":"record","fields":{"table":"x_1777184_delive_0_season_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1777184_delive_0_season_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Show Detail"},"routeInfo":{"route":"record","fields":{"table":"x_1777184_delive_0_show_detail","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1777184_delive_0_show_detail","canCreate":true}}},{"label":{"translatable":true,"message":"New Approval Detail"},"routeInfo":{"route":"record","fields":{"table":"sysapproval_approver","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"sysapproval_approver","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a0299db90a66250d3e5211ea6aa0462"/>
+</record_update>

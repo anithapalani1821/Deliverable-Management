@@ -2,7 +2,7 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
-        <client>true</client>
+        <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
@@ -30,10 +30,12 @@
         <name>ReSubmit</name>
         <onclick>onResubmit()</onclick>
         <order>100</order>
-        <script><![CDATA[function onResubmit(){
-	g_form.setValue('status','resubmitted');
-	g_form.submit();
-}]]></script>
+        <script><![CDATA[// function onResubmit(){
+// 	g_form.setValue('status','resubmitted');
+// 	g_form.submit();
+// }
+current.status = 'resubmitted';
+current.update();]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -44,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a224d8d7c36262508bbe32a77d0131dc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>ReSubmit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
@@ -52,7 +54,7 @@
         <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
         <sys_update_name>sys_ui_action_a224d8d7c36262508bbe32a77d0131dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-10 07:49:05</sys_updated_on>
+        <sys_updated_on>2025-07-14 06:54:40</sys_updated_on>
         <table>x_1777184_delive_0_deliverable_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

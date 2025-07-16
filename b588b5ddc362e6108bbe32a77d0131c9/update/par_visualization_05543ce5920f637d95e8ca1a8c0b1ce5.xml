@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Pie">96abe7e38d8790718022c5630a92176c</macroponent>
+        <name>Deliverable Type Distribution</name>
+        <properties>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"palette","palette":"467fc319d7100200b96d45a3ce610342"},"configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"value","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"","id":"dGFibGV4XzE3NzcxODRfZGVsaXZlXzBfZGVsaXZlcmFibGVfcmVxdWVzdDE3NTI0OTU1NDk1NTY5NzIwODQyNS41MzQ2MjI5MQ==","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1777184_delive_0_deliverable_request"}],"dateFormat":"default","emptyStateHeading":"No data available.","emptyStateIllustration":"add-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE3NzcxODRfZGVsaXZlXzBfZGVsaXZlcmFibGVfcmVxdWVzdDE3NTI0OTU1NDk1NTY5NzIwODQyNS41MzQ2MjI5MQ==","groupByField":"deliverable_type","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true}],"headerTitle":"Deliverable Type Distribution","hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzE3NzcxODRfZGVsaXZlXzBfZGVsaXZlcmFibGVfcmVxdWVzdDE3NTI0OTU1NDk1NTY5NzIwODQyNS41MzQ2MjI5MQ==","id":"ZEdGaWJHVjRYekUzTnpjeE9EUmZaR1ZzYVhabFh6QmZaR1ZzYVhabGNtRmliR1ZmY21WeGRXVnpkREUzTlRJME9UVTFORGsxTlRZNU56SXdPRFF5TlM0MU16UTJNakk1TVE9PTE3NTI0OTU1NDk1NTc0MzYyODk2MS43OTcyNDQ0OA==","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2.0,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":true,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":true,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":true,"showRegisterValue":true,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":"null","truncationType":"start","wrapTitle":true,"showDataTable":false}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 10:37:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>05543ce5920f637d95e8ca1a8c0b1ce5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Deliverable Type Distribution</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
+        <sys_update_name>par_visualization_05543ce5920f637d95e8ca1a8c0b1ce5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 12:19:09</sys_updated_on>
+        <type>Pie</type>
+    </par_visualization>
+</record_update>

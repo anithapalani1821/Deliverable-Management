@@ -2,43 +2,43 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>info</color>
+        <color>default</color>
         <css/>
-        <glyph>file-o</glyph>
+        <glyph>users</glyph>
         <id/>
-        <kb_article display_value="KB0010003 v1.0">4ae8dd23c32ea2508bbe32a77d0131fa</kb_article>
+        <kb_article display_value="KB0010005 v1.0">b4203e7cc33e6a508bbe32a77d013161</kb_article>
         <kb_category/>
         <kb_topic/>
-        <order>3</order>
+        <order>1</order>
         <roles/>
         <sc_cat_item/>
         <sc_category/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">422e5c2bc3e6a2508bbe32a77d0131fe</sp_column>
+        <sp_column display_value="2">d1707abcc33e6a508bbe32a77d013131</sp_column>
         <sp_page display_value="kb_article">dea5792147132100ba13a5554ee4902d</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-11 06:56:18</sys_created_on>
-        <sys_id>4a69992bc32ea2508bbe32a77d013124</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Knowledge Article for Deliverable Management</sys_name>
+        <sys_created_on>2025-07-15 10:29:56</sys_created_on>
+        <sys_id>d2a0febcc33e6a508bbe32a77d01316b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Knowledge Article about Creative Team</sys_name>
         <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
-        <sys_update_name>sp_instance_link_4a69992bc32ea2508bbe32a77d013124</sys_update_name>
+        <sys_update_name>sp_instance_link_d2a0febcc33e6a508bbe32a77d01316b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-11 10:41:22</sys_updated_on>
-        <title>Knowledge Article for Deliverable Management</title>
+        <sys_updated_on>2025-07-15 10:35:53</sys_updated_on>
+        <title>Knowledge Article about Creative Team</title>
         <type>kb_article</type>
         <url/>
         <widget_parameters><![CDATA[{
 	"link_template": {
-		"value": "Top Icon",
-		"displayValue": "Top Icon"
+		"value": "",
+		"displayValue": ""
 	}
 }]]></widget_parameters>
     </sp_instance_link>
-    <sys_translated_text action="delete_multiple" query="documentkey=4a69992bc32ea2508bbe32a77d013124"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2a0febcc33e6a508bbe32a77d01316b"/>
 </record_update>

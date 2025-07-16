@@ -2,7 +2,7 @@
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="Approval">e0af5d63c36ea2508bbe32a77d0131b7</category>
-        <columns>state,approver,comments,sysapproval,sys_created_on</columns>
+        <columns>state,approver,document_id,sys_created_on</columns>
         <condition table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^source_table=x_1777184_delive_0_deliverable_request<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value="x_1777184_delive_0_deliverable_request"/>
         </condition>
@@ -62,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f9bf5d63c36ea2508bbe32a77d0131ad</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
@@ -70,7 +70,7 @@
         <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
         <sys_update_name>sys_ux_list_f9bf5d63c36ea2508bbe32a77d0131ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-11 07:30:01</sys_updated_on>
+        <sys_updated_on>2025-07-14 07:03:47</sys_updated_on>
         <table>sysapproval_approver</table>
         <title>All</title>
         <view/>

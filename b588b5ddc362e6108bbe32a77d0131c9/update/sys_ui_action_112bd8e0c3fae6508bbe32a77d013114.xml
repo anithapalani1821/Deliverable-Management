@@ -4,18 +4,21 @@
         <active>true</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
+	g_form.setValue('status','approved');
+	g_form.submit();
+	
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state == 'requested'&amp;&amp; (gs.hasRole('x_1777184_delive_0.creative team'))||(gs.hasRole(' x_1777184_delive_0.media science team'))</condition>
+        <condition>current.state == 'requested'&amp;&amp;current.source_table=='x_1777184_delive_0_deliverable_request'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
-        <form_button_v2>false</form_button_v2>
+        <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
-        <form_style/>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>false</isolate_script>
         <list_action>false</list_action>
@@ -43,7 +46,7 @@ current.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>112bd8e0c3fae6508bbe32a77d013114</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Approve</sys_name>
         <sys_overrides/>
         <sys_package display_value="Deliverable Management" source="x_1777184_delive_0">b588b5ddc362e6108bbe32a77d0131c9</sys_package>
@@ -51,7 +54,7 @@ current.update();
         <sys_scope display_value="Deliverable Management">b588b5ddc362e6108bbe32a77d0131c9</sys_scope>
         <sys_update_name>sys_ui_action_112bd8e0c3fae6508bbe32a77d013114</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-14 05:03:48</sys_updated_on>
+        <sys_updated_on>2025-07-14 11:55:56</sys_updated_on>
         <table>sysapproval_approver</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
